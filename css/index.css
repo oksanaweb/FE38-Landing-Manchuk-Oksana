@@ -2,7 +2,6 @@
 @import url("../css/awesome.css");
 @import url("../css/price.css");
 
-
 * {margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,6 +15,7 @@
     margin:auto;
     padding: 0 15px;
   }
+
 .wrap {
   display: flex;
   justify-content: space-between;
