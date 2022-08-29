@@ -1,7 +1,8 @@
 @import url("../css/fonts.css");
 @import url("../css/awesome.css");
 @import url("../css/price.css");
-@import url("../css/custumers.css")
+@import url("../css/customers.css");
+@import url("../css/design.css");  
 
 * {margin: 0;
   padding: 0;
@@ -10,7 +11,6 @@
 }
  html {font-family: "Open Sans", "Raleway", sans-serif;
 }
-
   .container {
     max-width: 1170px;
     margin:auto;
