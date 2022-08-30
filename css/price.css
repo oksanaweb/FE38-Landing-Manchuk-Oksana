@@ -21,7 +21,7 @@
 
 .tarif { 
   width: 340px;
-  line-height: 27px;
+  line-height: 50px;
   background-color:#333333 ;
   margin-bottom: 2px;
   text-align: center;
@@ -30,25 +30,24 @@
   font-style: normal;
   font-weight: 700;
   color:#F5F5F5
-} 
-  
+}   
   .pricing { 
     width: 340px;
     background-color:#333333 ;
     margin-bottom: 2px;
     text-align: center;
     font-size: 35px;
-    line-height: 41px;
+    line-height: 100px;
     color: #FFFFFF; 
     font-family: "Raleway";
   } 
   .free {
     width: 340px;
     background-color: #333333;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     text-align: center;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 50px;
     color: rgba(255, 255, 255, 0.5);
     font-family: "Open Sans";
       }
@@ -56,10 +55,10 @@
     .space { 
       width: 340px;
       background-color:  #FFFFFF;
-      margin-bottom: 2px;
+      margin-bottom: 4px;
       text-align: center;
       font-size: 14px;
-      line-height: 19px;
+      line-height: 40px;
       color: #86878B; 
       font-family: "Open Sans";
           }

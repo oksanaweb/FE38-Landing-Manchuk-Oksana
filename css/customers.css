@@ -3,9 +3,9 @@
 
 .wrap-customers { 
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  
 }
 
 .item-customers { 
@@ -23,6 +23,7 @@
     font-family: "Open Sans";
     font-weight: 400;
     padding: 9px 20px 5px;
+    position: relative;
     } 
 
 .customers-text ::after {
