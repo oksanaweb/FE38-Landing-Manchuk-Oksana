@@ -4,11 +4,13 @@
 @import url("../css/customers.css");
 @import url("../css/design.css");
 @import url("../css/header.css");  
+@import url("../css/media.css");
 
 * {margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
  html {font-family: "Open Sans", "Raleway", sans-serif;
 }
@@ -18,10 +20,11 @@
     padding: 0 15px;
   }
 
-.wrap {
+  .wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
 }
+
 
