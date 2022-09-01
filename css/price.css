@@ -12,12 +12,20 @@
   margin-top: 30px;
   display: flex;
   justify-content:space-between;
-  align-items: ;
  }
 
+ 
+ 
+ 
  .list-basic { 
   list-style-type: none;
- }
+  transition: 0.2s;
+   }
+
+.list-basic:hover { 
+  transform: scale(1.1);
+  transition: 0.2s;
+}
 
 .tarif { 
   width: 340px;

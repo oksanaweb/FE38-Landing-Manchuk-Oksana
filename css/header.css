@@ -1,12 +1,11 @@
 .header {
   background-color: #000000;
-  padding: 20px 100px; }
+  padding: 20px;}
 
-.wrap-header { 
+.header-wrap { 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  justify-content: space-between;}
+
 .navigation-list { 
   display:flex;
 }
@@ -35,15 +34,12 @@ line-height: 20px;
 font-family: "Open Sans";
 font-weight: 600;
 color: rgba(255, 255, 255, 0.7);
-transition: 3s;
-display: inline-block;
+transition: 0.2s;
+border-bottom: 1px solid transparent;
 }
 
 .navigation-list-item a:hover
-{ width: 70px;
-  font-size: 15px;
-  border-bottom: 2px solid #EC7979; 
-  padding-bottom: 7px;
-  transition: 3s;
-  
-}
+{ font-size: 15px;
+  border-bottom: 1px solid #EC7979; 
+  transition: 0.2s;
+  }

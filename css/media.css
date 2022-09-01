@@ -1,23 +1,24 @@
 .media { 
   background-color:#F8EFEF;
-  padding: 20px 100px;  
+  padding: 20px 0;  
 }
   .wrap-media { 
     display: flex;
     justify-content:space-between;
-    align-items: center;}
+    align-items: center;
+  }
+
+ .text-media {
+  width:365px;}
 
   .media-list { 
     display: flex;
-    justify-content: center;
-  
-    }
-    media-item a {
-      display: inline-block;}
-
-  .media-item {
+    width: 630px;
+         } 
+  .media-list-item {
     margin-left: 50px;
   }
+      
   .title-media { 
     font-size: 20px;
     line-height: 27px;
@@ -26,76 +27,91 @@
     font-weight: 700; 
     margin-bottom: 14px;
       }
+
     .media-description {
       font-size: 14px;
       color:#86878B; 
       line-height: 19px;
     }
+
 .fa-facebook { 
 font-size: 30px;
 color: #EC7979;
-transition: 2s; }
+transition: 0.2s; }
 
 .fa-facebook:hover {
   color: blue;
   transform: rotate(45deg) scale(1.2);
+  transition: 0.2s;
   }
   
   .fa-twitter { 
     font-size: 30px;
     color: #EC7979;
-    transition: 2s;
-      }
+    transition: 0.2s;}
+
   .fa-twitter:hover {
-    color:aqua;
-    transform: scale(1.2);
+  color:aqua;
+  transform: scale(1.2);
+  transition: 0.2s;
   }
+  
   .fa-google { 
     font-size: 30px;
     color: #EC7979;
-    transition: 2s;
+    transition: 0.2s;
   }
+
   .fa-google:hover { 
     color:greenyellow;
     transform: rotate(45deg);
+    transition: 0.2s;
   }
+
   .fa-pinterest { 
     font-size: 30px;
     color: #EC7979;
-    transition: 2s;
+    transition: 0.2s;
   }
+
   .fa-pinterest:hover { 
     color:red;
     transform:scale(1.1);
+    transition: 0.2s;
   }
   .fa-instagram { 
     font-size: 30px;
     color: #EC7979;
-    transition: 2s;
-  }
-  .fa-instagram:hover{ 
+    transition: 0.2s;}
+
+.fa-instagram:hover{ 
 color:yellow;
 transform: rotate(-80deg) scale(1.2);
-  }
+transition: 0.2s;}
 
   .fa-stumbleupon 
   { 
   font-size: 30px;
   color: #EC7979;
-  transition: 2s;
-}
+  transition: 0.2s;
+  }
+
 .fa-stumbleupon:hover {
   color:olivedrab;
   transform:rotate(-30deg) skew(-30deg) ;
+  transition: 0.2s;
 }
+
 .fa-whatsapp {
   font-size: 30px;
   color: #EC7979;
-  transition: 2s;
+  transition: 0.2s;
 }
+
 .fa-whatsapp:hover{
   color: green;
   transform: rotate(-30deg) scale(1.2);
+  transition: 0.2s;
 }
 
 
