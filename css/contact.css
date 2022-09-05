@@ -1,0 +1,89 @@
+.contact {  padding: 80px 0; }
+
+.title-contact {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+  font-family: "Raleway";
+}
+
+.title-contact::after {
+  content: '';
+  width: 64px;
+  height: 2px;
+  background-color:#E72424;
+  border: 1px solid #FFFFFF;
+  margin: 35px auto 35px;
+  display: block;
+  }
+
+  .contact-description { 
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878B; 
+  text-align: center;
+  margin-bottom: 100px;
+  }
+  .contact-left { width: 480px;}
+
+.contact-field { 
+border:none;
+border-bottom:  1px solid #BDBDBD;
+width: 100%;
+display: block;  }
+
+.contactbox { 
+  font-size: 14px;
+  line-height: 19px;
+  color:  #BDBDBD;}
+
+.contact-item { margin-bottom: 35px;}
+
+.contact-form { 
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  }
+
+#user-message { 
+  resize: none;
+  width: 480px;
+  height: 166px;
+  border:none;
+  border-bottom:  1px solid #BDBDBD;
+ }
+
+.button-contact { 
+display: block;
+margin: auto;
+background-color: #EC7979;
+border: 1px solid #FFFFFF; 
+padding: 15px 32px; 
+cursor: pointer;
+}
+
+.button-contact-text { 
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color:  #FFFFFF;
+}
+
+
+.label-text { display: block;
+  font-size: 14px;
+  line-height: 19px;
+  color: #BDBDBD; 
+}
+
+
+
+
+
+
+
+
+
