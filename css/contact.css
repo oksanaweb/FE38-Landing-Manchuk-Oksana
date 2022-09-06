@@ -27,10 +27,11 @@
   text-align: center;
   margin-bottom: 100px;
   }
-  .contact-content {display: flex;
+  .contact-content {
+  display: flex;
   justify-content: space-between; 
-  margin:0 -15px; 
-}
+  margin:0 -15px; }
+
 .contact-left {
 margin:0 15px; 
 width: 40% ;}
@@ -76,6 +77,23 @@ border-bottom:  1px solid #BDBDBD;
 .contact-item { margin-bottom: 20px;}
 
 .contact-item:last-child { margin-bottom: 0;}
+
+@media (max-width:776px) { 
+  .contact-content {
+  flex-direction: column; 
+  align-items: center;}
+
+  .contact-right { margin-top: 40px;
+  width: 70%;  
+  }
+.contact-left { width: 70%;}
+}
+
+@media (max-width:480px) {
+  .contact-button { width:76%;}
+ }
+
+
 
 
 
