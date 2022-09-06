@@ -27,58 +27,55 @@
   text-align: center;
   margin-bottom: 100px;
   }
-  .contact-left { width: 480px;}
+  .contact-content {display: flex;
+  justify-content: space-between; 
+  margin:0 -15px; 
+}
+.contact-left {
+margin:0 15px; 
+width: 40% ;}
 
-.contact-field { 
-border:none;
-border-bottom:  1px solid #BDBDBD;
+.contact-right {
+margin:0 15px; 
+width: 40% ;}
+
+.contact-button { 
+  display: block;
+  margin: auto;
+width: 166;
+height: 42px;
+margin: 30px auto 0;
+background-color: #EC7979; 
+border: none;
+font-size: 15px;
+color: #FFFFFF;
+padding: 11px 30px 11px;
+}
+
+textarea { resize:none;
 width: 100%;
-display: block;  }
+display: block;
+height: 166px;
+border: none;
+border-bottom:  1px solid #BDBDBD; 
+}
 
-.contactbox { 
-  font-size: 14px;
-  line-height: 19px;
-  color:  #BDBDBD;}
+#contactemail { width: 100%;
+    border:none;
+  border-bottom:  1px solid #BDBDBD;}
 
-.contact-item { margin-bottom: 35px;}
+#contactname {width: 100%; 
+  border:none;
+  border-bottom:  1px solid #BDBDBD; }
 
-.contact-form { 
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 35px;
-  }
-
-#user-message { 
-  resize: none;
-  width: 480px;
-  height: 166px;
+#contactpassword {width: 100%; 
   border:none;
   border-bottom:  1px solid #BDBDBD;
- }
-
-.button-contact { 
-display: block;
-margin: auto;
-background-color: #EC7979;
-border: 1px solid #FFFFFF; 
-padding: 15px 32px; 
-cursor: pointer;
 }
 
-.button-contact-text { 
-font-size: 15px;
-line-height: 20px;
-text-align: center;
-color:  #FFFFFF;
-}
+.contact-item { margin-bottom: 20px;}
 
-
-.label-text { display: block;
-  font-size: 14px;
-  line-height: 19px;
-  color: #BDBDBD; 
-}
-
+.contact-item:last-child { margin-bottom: 0;}
 
 
 

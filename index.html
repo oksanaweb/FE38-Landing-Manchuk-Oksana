@@ -47,23 +47,26 @@
           </div>
         </div>
     
-        <form class="input-box"> 
-          <div class="form-content">
-           <p class="form-title">Try Your <span class="text-free">FREE</span> Trial Today</p>
-           <div class="form-item"><label for="username"class="formbox">Name</label>
-          <input type="text" class="input-field" name="username" maxlength="15" minlength="2">
-          </div>
-          <div class="form-item"><label for="useradress" class="formbox">Email</label>
-            <input type="email" class="input-field"   name="email"maxlength="15" minlength="2">
-          </div>
-          <div class="form-item">
-            <label for="userpassword" class="formbox">Password</label><input type="password" class="input-field"  name="userpassword" maxlength="15" minlength="2">
-          </div>
-          <button type="submit" class="button-box" name="button-form"> 
-            <p class="button-text">Get started! </p>
-          </button>
-          </div>
+        <div class="form-right">
+          <form class="input-box">
+            <div class="form-content">
+              <p class="form-title">Try Your <span class="text-free">FREE</span> Trial Today</p>
+              <div class="form-item">
+                <label for="username">Name</label>
+                <input type="text" id="username">
+              </div>
+              <div class="form-item">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+              </div>
+              <div class="form-item">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+              </div>
+            </div>
+            <button class="button-box">Get started!</button>
           </form>
+        </div>
       </div>    
        
     </div>    
@@ -294,30 +297,28 @@
     <h2 class="title-contact">CONTACT US</h2>
     <p class="contact-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-   <form action="#" class="contact-form">
-    <div class="contact-left">
-      <div class="contact-item"><label for="username"class="contactbox">Name</label>
-        <input type="text" class="contact-field" name="username" maxlength="15" minlength="2">
+  <div class="contact-wrap"> 
+    <form class="contact-form"> 
+      <div class="contact-content">
+        <div class="contact-left"> 
+          <div class="contact-item"><label for="contactname">Name</label>
+            <input type="text" id="contactname">
+            </div>
+          <div class="contact-item"><label for="contactemail">Email</label>
+              <input type="text" id="contactemail"></div>
+          <div class="contact-item"><label for="contactpassword">Password</label><input type="password" id="contactpassword"></div>
         </div>
-        <div class="contact-item"><label for="useradress" class="contactbox">Email</label>
-          <input type="email" class="contact-field"   name="email"maxlength="15" minlength="2">
+        <div class="contact-right"> 
+          <div class="contact-right-item">
+            <label for="message">Message</label>
+            <textarea></textarea>
+          </div>
         </div>
-        <div class="contact-item">
-          <label for="userpassword" class="contactbox">Password</label><input type="password" class="contact-field"  name="userpassword" maxlength="15" minlength="2">
-        </div>
-      
       </div>
-   <div class="contact-right">
-    <div class="textarea-item">
-      <label for="user-message" class="label-text">Message</label>
-    <textarea id="user-message" name="usertext"></textarea>
-    </div>
-  </div>   
-   </div>
-     </form>
-    <button type="submit" class="button-contact" name="button-contact" form="contact-form"> 
-      <p class="button-contact-text">Send Message</p>
-    </button>
+      <button class="contact-button">Send Message</button>
+    </form>
+  </div>
+  
 
   </div>
 
