@@ -2,6 +2,7 @@
 
 .tabs-wrap { display: flex;
 justify-content: space-between;
+margin: 0 15px;
 }
 
 .button1 {
@@ -13,9 +14,8 @@ justify-content: space-between;
   color: #FFFFFF;
   border-radius: 4px;
   border: none;
-  
- 
- }
+  display: block;
+   }
 
 .button2 { 
   display: block;
@@ -27,8 +27,7 @@ justify-content: space-between;
  border-radius: 4px;
  border: none;
  font-family: "Open Sans";
- 
- 
+ display: block;
 }
 
 .button3 { 
@@ -40,16 +39,22 @@ background-color: #333333;
 color:#FFFFFF;
 border-radius: 4px;  
 border: none;
+display: block;
 }
+
+
 
 .tabs-header { margin-right:88px ;} 
 
 .tabs-item {
-display: flex; 
-justify-content: space-between;}
+  display: flex; 
+  justify-content: space-between;
+  max-width: 950px;
+  margin: 0 15px;} 
+
 
 .tab-title {  
-font-size: 20px;
+font-size: 1.25rem;
 font-family: "Open Sans";
 font-weight: 700;
 color: #000000;
@@ -59,7 +64,7 @@ text-align: center;
 }
 
 .tab-text p { 
-font-size: 14px;
+font-size: 0.875rem;
 line-height:19px;
 font-family: "Open Sans";
 text-transform: uppercase;
@@ -70,7 +75,8 @@ color:#86878B;
 
 .link-tab {margin-top: 90px; }
 
-.tabs-left { margin-right: 80px}
+
+
 
 .link-tab { 
   width: 135px;
@@ -88,9 +94,141 @@ color:#86878B;
   }
 
 .link-tab a { 
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #FFFFFF;
  text-align: center;
  display: block;
+ }
+
+
+.tabs-img a { 
+  object-fit: cover;
+  height: 100%;
+  width: 100%; }
+
+.tabs-item-second {   
+  display: flex; 
+  justify-content: space-between;
+  max-width: 950px;
+  margin: 0 15px; 
+  display: none;}
+
+.tabs-item-third { 
+  display: flex; 
+  justify-content: space-between;
+  max-width: 950px;
+  margin: 0 15px; 
+ display: none;}
+
+ @media (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 970px;
+  }
 }
+
+@media (max-width: 992px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 750px;
+  }
+.tabs-item { display: flex;
+flex-direction: column;
+}
+.tabs-img { margin-top: 20px;}
+.link-tab { margin-bottom: 20px;}
+
+.button1 {
+  display: block;
+  width: 102px;
+  height: 90px;} 
+
+.button2{
+  display: block;
+  width: 102px;
+  height: 90px;} 
+.button3 { display: block;
+  width: 102px;
+  height: 90px;} 
+
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+  .container {
+    max-width: 570px;
+  }
+ .button1 {
+  display: block;
+  width: 82px;
+  height: 70px;} 
+
+.button2{
+  display: block;
+  width: 82px;
+  height: 70px;} 
+.button3 { display: block;
+  width: 82px;
+  height: 70px;} 
+
+.tabs-header { margin-right: 30px;} 
+.link-tab {  width: 90px;
+line-height: 22px;
+margin-top: 20px; }
+}
+
+@media (max-width: 566px) {
+  html {
+    font-size: 10px;
+  }
+.container {max-width: 400px;}
+.button1 {
+  display: block;
+  width: 62px;
+  height: 50px;} 
+
+.button2{
+  display: block;
+  width: 62px;
+  height: 50px;} 
+.button3 { display: block;
+  width: 62px;
+  height: 50px;} 
+  .tabs-header { margin-right: 10px;} 
+
+  .tabs-img a { 
+  width:100px;} 
+}
+
+@media (max-width: 320px) { 
+ html { font-size:10px}
+ .container { max-width: 300px;}
+
+ .button1 {
+  display: block;
+  width: 42px;
+  height: 30px;} 
+
+.button2{
+  display: block;
+  width: 42px;
+  height: 30px;} 
+.button3 { display: block;
+  width: 42px;
+  height: 30px;} 
+  .tabs-header { margin-right: 0;} 
+
+.tabs-img a { 
+  width: 70px;} 
+
+.tabs-header { flex-direction: row;
+justify-content: flex-start;} 
+}
+
+
 

@@ -11,7 +11,7 @@ justify-content: space-between;
 
 #footer-facebook {
   color:#E2E2E2;
-  font-size: 25px;
+  font-size: 1.5625rem;
   transition: 0.2s;
 }
 #footer-facebook:hover {
@@ -21,17 +21,17 @@ transition: 0.2s;
 
 #footer-twitter { 
   color:#E2E2E2;
-  font-size: 25px;
+  font-size: 1.5625rem;
   transition: 0.2s;
 }
 #footer-twitter:hover { 
   color:aqua;
   transform: rotate(-80deg)
-  transition: 0.2s;}
+  transition:0.2s;}
 
 #footer-google { 
   color:#E2E2E2;
-  font-size: 25px;
+  font-size: 1.5625rem;
   transition: 0.2s;
 }
 #footer-google:hover { 
@@ -41,7 +41,7 @@ transition: 0.2s;
 }
 #footer-intagram {
   color:#E2E2E2;
-  font-size: 25px;
+  font-size: 1.5625rem;
   transition: 0.2s;
 }
 #footer-intagram:hover { 
@@ -50,7 +50,7 @@ transition: 0.2s;
 }
 #footer-stum { 
   color:#E2E2E2;
-  font-size: 25px;
+  font-size: 1.5625rem;
   transition: 0.2s;
 }
 #footer-stum:hover{
@@ -60,7 +60,7 @@ transition: 0.2s;
 }
 #footer-app { 
   color:#E2E2E2;
-  font-size: 25px;
+  font-size:1.5625rem;
   transition: 0.2s;
 }
 #footer-app:hover{
@@ -70,7 +70,7 @@ transition: 0.2s;
 }
 .footer-text p {
   color: #E2E2E2;
-  font-size: 14px;
+  font-size:0.875rem;
   font-family: "Open Sans";
   font-weight: 400;
 }
@@ -79,6 +79,45 @@ transition: 0.2s;
   margin-top: 18px;
   justify-content: center;
 }
+@media (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 566px) {
+  html {
+    font-size: 12px;
+  }
+  .container { max-width: 320px;}
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 10px;
+  }
+  .container { max-width: 300px;}
+  .footer-media-list  { justify-content: space-evenly;}
+}
+
 
 
 

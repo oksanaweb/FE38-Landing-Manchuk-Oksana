@@ -4,7 +4,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 34px;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 42px;
   color: #212121;
   font-family: "Raleway";
@@ -21,7 +21,7 @@
   }
 
   .contact-description { 
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 19px;
   color: #86878B; 
   text-align: center;
@@ -48,7 +48,7 @@ height: 42px;
 margin: 30px auto 0;
 background-color: #EC7979; 
 border: none;
-font-size: 15px;
+font-size: 0.9375rem;
 color: #FFFFFF;
 padding: 11px 30px 11px;
 }
@@ -78,21 +78,44 @@ border-bottom:  1px solid #BDBDBD;
 
 .contact-item:last-child { margin-bottom: 0;}
 
+@media (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 970px;
+  }
+  textarea {height: 156px;  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 13px;
+  }
+  .container {
+    max-width: 750px;
+  }
+  textarea {height: 146px; }
+}
+
 @media (max-width:776px) { 
   .contact-content {
   flex-direction: column; 
   align-items: center;}
 
   .contact-right { margin-top: 40px;
-  width: 70%;  
-  }
+  width: 70%;  }
 .contact-left { width: 70%;}
 }
 
 @media (max-width:480px) {
   .contact-button { width:76%;}
  }
+ @media (max-width: 320px) 
+ { html { font-size: 11px;}
 
+ .container { max-width: 300px;}
+
+}
 
 
 
